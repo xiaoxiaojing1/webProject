@@ -43,6 +43,7 @@ class TestBaiduLogin(unittest.TestCase):
 
             # 退出登录
             ele_quit_btn = self.driver.find_element_by_class_name("quit")
+            # 使用ActionChains获取动态元素
             ActionChains(self.driver).move_to_element(ele_usrname).click(ele_quit_btn).perform()
             time.sleep(1)
             self.driver.find_element_by_xpath('//*[@id="tip_con_wrap"]/div[3]/a[3]').click()
@@ -65,8 +66,8 @@ class TestBaiduLogin(unittest.TestCase):
             self.driver.find_element_by_id("TANGRAM__PSP_10__footerULoginBtn").click()
 
         # 输入用户名密码登录
-        self.driver.find_element_by_id("TANGRAM__PSP_10__userName").send_keys("zhanghao")
-        self.driver.find_element_by_id("TANGRAM__PSP_10__password").send_keys("mima")
+        self.driver.find_element_by_id("TANGRAM__PSP_10__userName").send_keys(get_ini_data("Account", "tel"))
+        self.driver.find_element_by_id("TANGRAM__PSP_10__password").send_keys(get_ini_data("Account", "passwd"))
         self.driver.find_element_by_id("TANGRAM__PSP_10__submit").click()
 
         if self.driver.find_element_by_id("TANGRAM__36__header_h3").text in "安全验证":
@@ -96,13 +97,16 @@ class TestBaiduLogin(unittest.TestCase):
         self.assertIn(ele.text, "短信快捷登录", "当前页面不是短信快捷登录")
 
         # 输入手机号验证码登录
-        self.driver.find_element_by_id("TANGRAM__PSP_10__smsPhone").send_keys("shoujihao")
+        self.driver.find_element_by_id("TANGRAM__PSP_10__smsPhone").send_keys(get_ini_data("Account", "tel"))
         self.driver.find_element_by_id("TANGRAM__PSP_10__smsTimer").click()
         message_code = input("请输入短信验证码：")
         self.driver.find_element_by_id("TANGRAM__PSP_10__smsVerifyCode").send_keys(message_code)
         self.driver.find_element_by_id("TANGRAM__PSP_10__smsSubmit").click()
 
         self.verify_and_logout()
+
+    def test_test1(self):
+        print(self.driver.page_source.__sizeof__())
 
 
 if __name__ == '__main__':

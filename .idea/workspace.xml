@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19e22b5-b1f2-41c6-a781-d6ecda9a6bd5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/test_baidu_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conf/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_case/test_testerhome_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_notes.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_notes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conf/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Conf/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_baidu_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_baidu_login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,14 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_baidu_login.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_case/test_baidu_login.py">
+      <file leaf-file-name="setting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../selenium_uses/Conf/setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1919">
-              <caret line="101" column="67" selection-start-line="101" selection-start-column="67" selection-end-line="101" selection-end-column="67" />
+            <state relative-caret-position="171">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setting.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Conf/setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -33,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -50,7 +60,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../selenium_uses/test_case/test_checkTesterhome.py" />
-        <option value="$PROJECT_DIR$/Conf/config.ini" />
         <option value="$PROJECT_DIR$/test_case/__init__.py" />
         <option value="$PROJECT_DIR$/test_case/aa.py" />
         <option value="$PROJECT_DIR$/test_case/assertUnitDemo.py" />
@@ -62,10 +71,14 @@
         <option value="$PROJECT_DIR$/test_case/test_baidu_homework.py" />
         <option value="$PROJECT_DIR$/test_case/test_baidu.py" />
         <option value="$PROJECT_DIR$/test_case/test_baidu_login.py" />
+        <option value="$PROJECT_DIR$/../selenium_uses/test_case/test_loginTesterhome.py" />
+        <option value="$PROJECT_DIR$/test_case/test_testerhome_login.py" />
+        <option value="$PROJECT_DIR$/Conf/config.ini" />
+        <option value="$PROJECT_DIR$/Conf/setting.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -92,17 +105,12 @@
             </path>
             <path>
               <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webProject" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium_uses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium_uses" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="Conf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -125,8 +133,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_baidu_login.TestBaiduLogin.test_login_with_message">
-    <configuration name="Unittests for test_baidu_login.TestBaiduLogin.test_login_with_message" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.setting">
+    <configuration name="setting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="webProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Conf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Conf/setting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests for test_testerhome_login.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="webProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,10 +162,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_baidu_login.TestBaiduLogin.test_login_with_message&quot;" />
+      <option name="_new_target" value="&quot;test_testerhome_login.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_baidu_login.TestBaiduLogin.test_login_with_password" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_testerhome_login.MyTestCase.test_a_login_checklogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="webProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,10 +175,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_baidu_login.TestBaiduLogin.test_login_with_password&quot;" />
+      <option name="_new_target" value="&quot;test_testerhome_login.MyTestCase.test_a_login_checklogin&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_notes.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_testerhome_login.MyTestCase.test_c_logout" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="webProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,10 +188,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_notes.MyTestCase&quot;" />
+      <option name="_new_target" value="&quot;test_testerhome_login.MyTestCase.test_c_logout&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_notes.MyTestCase.test_maxsize_window" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_testerhome_login.MyTestCase.test_something" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="webProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,36 +201,23 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_notes.MyTestCase.test_maxsize_window&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for test_notes.MyTestCase.test_test1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="webProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_notes.MyTestCase.test_test1&quot;" />
+      <option name="_new_target" value="&quot;test_testerhome_login.MyTestCase.test_something&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_notes.MyTestCase" />
-      <item itemvalue="Python tests.Unittests for test_notes.MyTestCase.test_maxsize_window" />
-      <item itemvalue="Python tests.Unittests for test_notes.MyTestCase.test_test1" />
-      <item itemvalue="Python tests.Unittests for test_baidu_login.TestBaiduLogin.test_login_with_password" />
-      <item itemvalue="Python tests.Unittests for test_baidu_login.TestBaiduLogin.test_login_with_message" />
+      <item itemvalue="Python tests.Unittests for test_testerhome_login.MyTestCase" />
+      <item itemvalue="Python tests.Unittests for test_testerhome_login.MyTestCase.test_something" />
+      <item itemvalue="Python tests.Unittests for test_testerhome_login.MyTestCase.test_a_login_checklogin" />
+      <item itemvalue="Python tests.Unittests for test_testerhome_login.MyTestCase.test_c_logout" />
+      <item itemvalue="Python.setting" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_baidu_login.TestBaiduLogin.test_login_with_message" />
-        <item itemvalue="Python tests.Unittests for test_baidu_login.TestBaiduLogin.test_login_with_password" />
-        <item itemvalue="Python tests.Unittests for test_notes.MyTestCase.test_test1" />
-        <item itemvalue="Python tests.Unittests for test_notes.MyTestCase" />
-        <item itemvalue="Python tests.Unittests for test_notes.MyTestCase.test_maxsize_window" />
+        <item itemvalue="Python.setting" />
+        <item itemvalue="Python tests.Unittests for test_testerhome_login.MyTestCase" />
+        <item itemvalue="Python tests.Unittests for test_testerhome_login.MyTestCase.test_a_login_checklogin" />
+        <item itemvalue="Python tests.Unittests for test_testerhome_login.MyTestCase.test_c_logout" />
+        <item itemvalue="Python tests.Unittests for test_testerhome_login.MyTestCase.test_something" />
       </list>
     </recent_temporary>
   </component>
@@ -222,49 +235,49 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_baidu_login_TestBaiduLogin_test_login_with_password - 2018.08.23 at 13h 41m 26s.xml">
-      <configuration name="Unittests for test_baidu_login.TestBaiduLogin.test_login_with_password" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_MyTestCase - 2018.08.23 at 21h 06m 53s.xml">
+      <configuration name="Unittests for test_testerhome_login.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_baidu_login_TestBaiduLogin_test_login_with_password - 2018.08.23 at 13h 45m 21s.xml">
-      <configuration name="Unittests for test_baidu_login.TestBaiduLogin.test_login_with_password" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_MyTestCase_test_a_login_checklogin - 2018.08.23 at 21h 10m 19s.xml">
+      <configuration name="Unittests for test_testerhome_login.MyTestCase.test_a_login_checklogin" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_baidu_login_TestBaiduLogin_test_login_with_password - 2018.08.23 at 13h 50m 13s.xml">
-      <configuration name="Unittests for test_baidu_login.TestBaiduLogin.test_login_with_password" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_MyTestCase - 2018.08.23 at 21h 10m 51s.xml">
+      <configuration name="Unittests for test_testerhome_login.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_baidu_login_TestBaiduLogin_test_login_with_password - 2018.08.23 at 13h 53m 25s.xml">
-      <configuration name="Unittests for test_baidu_login.TestBaiduLogin.test_login_with_password" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_MyTestCase - 2018.08.24 at 11h 17m 17s.xml">
+      <configuration name="Unittests for test_testerhome_login.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_baidu_login_TestBaiduLogin_test_login_with_password - 2018.08.23 at 16h 33m 49s.xml">
-      <configuration name="Unittests for test_baidu_login.TestBaiduLogin.test_login_with_password" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_MyTestCase_test_c_logout - 2018.08.24 at 11h 33m 46s.xml">
+      <configuration name="Unittests for test_testerhome_login.MyTestCase.test_c_logout" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_baidu_login_TestBaiduLogin_test_login_with_password - 2018.08.23 at 16h 35m 03s.xml">
-      <configuration name="Unittests for test_baidu_login.TestBaiduLogin.test_login_with_password" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_MyTestCase_test_a_login_checklogin - 2018.08.24 at 11h 43m 12s.xml">
+      <configuration name="Unittests for test_testerhome_login.MyTestCase.test_a_login_checklogin" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_baidu_login_TestBaiduLogin_test_login_with_password - 2018.08.23 at 16h 35m 05s.xml">
-      <configuration name="Unittests for test_baidu_login.TestBaiduLogin.test_login_with_password" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_MyTestCase - 2018.08.24 at 11h 45m 28s.xml">
+      <configuration name="Unittests for test_testerhome_login.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_baidu_login_TestBaiduLogin_test_login_with_password - 2018.08.23 at 16h 35m 25s.xml">
-      <configuration name="Unittests for test_baidu_login.TestBaiduLogin.test_login_with_password" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_MyTestCase - 2018.08.24 at 11h 46m 32s.xml">
+      <configuration name="Unittests for test_testerhome_login.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_baidu_login_TestBaiduLogin_test_login_with_message - 2018.08.23 at 16h 40m 18s.xml">
-      <configuration name="Unittests for test_baidu_login.TestBaiduLogin.test_login_with_message" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_MyTestCase - 2018.08.24 at 11h 47m 05s.xml">
+      <configuration name="Unittests for test_testerhome_login.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_baidu_login_TestBaiduLogin_test_login_with_message - 2018.08.23 at 17h 03m 08s.xml">
-      <configuration name="Unittests for test_baidu_login.TestBaiduLogin.test_login_with_message" configurationId="tests" />
+    <history-entry file="Unittests_for_test_testerhome_login_MyTestCase - 2018.08.24 at 11h 49m 33s.xml">
+      <configuration name="Unittests for test_testerhome_login.MyTestCase" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17569445" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.09939394" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31666666" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.048484847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -421,9 +434,6 @@
         <state relative-caret-position="-2" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../selenium_uses/Conf/setting.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/test_size.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -454,13 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conf/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -520,16 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../selenium_uses/test_case/test_loginTesterhome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1218">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../selenium_uses/test_case/test_checkTesterhome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-299">
@@ -551,13 +544,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_baidu_login.py">
+    <entry file="file://$PROJECT_DIR$/../selenium_uses/test/sizelog.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/sizelog.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../selenium_uses/test_case/test_loginTesterhome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1919">
-          <caret line="101" column="67" selection-start-line="101" selection-start-column="67" selection-end-line="101" selection-end-column="67" />
+        <state relative-caret-position="469">
+          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conf/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_testerhome_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_baidu_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="108" column="51" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../selenium_uses/util/ClientSelenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#45#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../selenium_uses/util/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/-1199943127/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="3598" column="8" selection-start-line="3598" selection-start-column="8" selection-end-line="3598" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../selenium_uses/Conf/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conf/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
